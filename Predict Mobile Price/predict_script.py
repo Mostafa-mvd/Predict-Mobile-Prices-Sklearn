@@ -7,6 +7,7 @@ csv_file_path = os.path.dirname(__file__) + r"\mobile_info.csv"
 # ['price', 'brand', 'op', 'memmory', 'ram', 'camera', 'network', 'battry']
 # y_train = list of prices
 # x_train = ['brand', 'op', 'memmory', 'ram', 'camera', 'network', 'battry']
+# brands_code = {'Samsung': 8397109115117110103, 'Lamborghini': 769710998111114103104105110105, 'Apple': 65112112108101, 'Xiaomi': 8810597111109105, 'CaterPillar': 67971161011148010510810897114, 'Huawei': 7211797119101105, 'HONOR': 7279787982, 'Tecno': 8410199110111, 'OnePlus': 7911010180108117115, 'Vivo': 86105118111, 'BlackBerry': 66108979910766101114114121, 'HTC': 728467, 'Motorola': 7711111611111411110897, 'Meizu': 77101105122117, 'Gplus': 71112108117115, 'Pantech': 809711011610199104, 'LAVA': 76658665}
 
 
 with open(csv_file_path, "r") as csv_file:
