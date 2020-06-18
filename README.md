@@ -7,5 +7,5 @@ install requirements
 second step:
 run scrape_digido_site for create new csv dataset (this level take some minutes)
 
-in second step:
+third step:
 run predict_script and give your features for predict
